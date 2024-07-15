@@ -1,0 +1,62 @@
+.image {
+    background-image: url('  https://static.wixstatic.com/media/c837a6_ec3f3132518d409f9b6a458252ebd997~mv2.jpg/v1/fill/w_1623,h_414,al_l,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_ec3f3132518d409f9b6a458252ebd997~mv2.jpg');
+    /* https://static.wixstatic.com/media/c837a6_ec3f3132518d409f9b6a458252ebd997~mv2.jpg/v1/fill/w_1623,h_414,al_l,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_ec3f3132518d409f9b6a458252ebd997~mv2.jpg */
+    /* https://cdn.pixabay.com/photo/2024/01/10/16/11/solar-8499901_1280.jpg */
+    background-size: cover;
+    width: 97.8%;
+
+    height: 500px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.paragraph {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    letter-spacing: 0px;
+   
+    color: whitesmoke;
+}
+
+.paragraph:hover {
+    transform: scale(1.1);
+    color: rgb(18, 34, 46);
+}
+
+
+.para5 {
+    width: 600px;
+    font: normal normal normal 17px/1.6em 'Raleway', sans-serif;
+    margin-left: 80px;
+    padding-top: 100px;
+}
+
+.para6 {
+    margin-top: 10px;
+    width: 600px;
+    margin-left: 80px;
+    font: normal normal normal 17px/1.6em 'Raleway', sans-serif;
+}
+
+.para7{
+    margin-left: 50px;
+    font: normal normal normal 14px/1.6em 'Raleway', sans-serif;
+}
+
+.Textbackground3 {
+    background-color: #F2F2F2;
+    width: 98%;
+    margin: 20px;
+    height: 200px;
+  
+  }
+  
+  .text3 {
+    font: normal normal normal 50px/1.4em syne, sans-serif;
+    ;
+    color: rgb(18, 34, 46);
+    letter-spacing: 0em;
+    padding-left: 50px;
+    padding-top: 50px;
+  
+  }

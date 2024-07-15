@@ -1,0 +1,143 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 750px;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-bottom: 10px;
+
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  background-size: cover;
+  
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    border-color 0.3s ease;
+  opacity: 0;
+}
+
+.slider-container:hover .prev-button,
+.slider-container:hover .next-button {
+  opacity: 1;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .slider-container {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .slider-container {
+    height: 300px;
+  }
+}
+
+/* Text Animation */
+.bounce span {
+  display: inline-flex;
+  color: #c7f4ff;
+  font-family: "Play", sans-serif;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(-20px);
+  }
+}
+
+.ten span:nth-of-type(1) {
+  animation-delay: 0.1s;
+}
+
+.ten span:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+
+.ten span:nth-of-type(3) {
+  animation-delay: 0.3s;
+}
+
+.ten span:nth-of-type(4) {
+  animation-delay: 0.4s;
+}
+
+.ten span:nth-of-type(5) {
+  animation-delay: 0.5s;
+}
+
+.ten span:nth-of-type(6) {
+  animation-delay: 0.6s;
+}
+
+.bounce {
+  font-size: 5rem;
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 50px;
+  display: inline-flex;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, #211e1e2e);
+}
+
+@media screen and (max-width: 768px) {
+  .bounce {
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bounce {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+}
