@@ -10,7 +10,7 @@ export const Footer = () => {
   });
 
   const slideIn = useSpring({
-    from: { transform: "translateY(100%)" },
+    from: { transform: "translateY(100%)" }, 
     to: { transform: "translateY(0%)" },
     delay: 500
   });
