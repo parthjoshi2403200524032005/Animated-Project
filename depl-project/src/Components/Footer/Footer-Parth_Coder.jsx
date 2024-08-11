@@ -6,7 +6,7 @@ export const Footer = () => {
   const fade = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
-    delay: 500
+    delay: 500  
   });
 
   const slideIn = useSpring({
